@@ -1,0 +1,49 @@
+body{
+    background-image: url(images/middle-earth.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Macondo', cursive;
+}
+
+
+#thehobbitlogo{
+    text-align : center;
+    margin: 15px auto;
+}
+
+.main-paragraph{
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.bottom{
+    width: 100%;
+    height: 100px;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    color: white;
+}
+
+
+
+
+
+h1{
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+
+@media(max-width: 1840px){
+    body{
+        background-size: auto;
+    }
+}
+
